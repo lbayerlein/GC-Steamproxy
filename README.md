@@ -2,6 +2,10 @@
 
 ## Many thanks!
 Many thanks to multiplay.co.uk for their blog article to this setup. I ported this to linux (CentOS) and serve it to the world, for their setup.
+Blog: http://blog.multiplay.co.uk/2014/04/lancache-dynamically-caching-game-installs-at-lans-using-nginx/
+
+## GamersCongress
+We use this setup a few years on our GamersCongress in Vilsbiburg. Feel free to visit us :-)
 
 ## DNS
 ### Steam
@@ -27,3 +31,13 @@ lancache-turbine download.ic.akamai.turbine.com launcher.infinitecrisis.com
 
 ### Microsoft
 lancache-microsoft *.download.windowsupdate.com download.windowsupdate.com dlassets.xboxlive.com *.xboxone.loris.llnwd.net xboxone.vo.llnwd.net images-eds.xboxlive.com xbox-mbr.xboxlive.com
+
+## NGINX
+### Log format
+We added some attributes to the log_format output. Logstash will use these for a better output (refer to https://easyengine.io/tutorials/nginx/upstream-cache-status-in-access-log/) :
+
+   log_format rt_cache “$upstream_cache_status” “$host” “$http_range"
+
+### TODO
+Cache optimization
+Logstash connection
