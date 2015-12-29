@@ -2,3 +2,28 @@
 
 ## Many thanks!
 Many thanks to multiplay.co.uk for their blog article to this setup. I ported this to linux (CentOS) and serve it to the world, for their setup.
+
+## DNS
+### Steam
+lancache-steam cs.steampowered.com *.cs.steampowered.com content1.steampowered.com content2.steampowered.com content3.steampowered.com content4.steampowered.com content5.steampowered.com content6.steampowered.com content7.steampowered.com content8.steampowered.com *.hsar.steampowered.com.edgesuite.net *.akamai.steamstatic.com content-origin.steampowered.com client-download.steampowered.com
+
+### Riot
+lancache-riot l3cdn.riotgames.com
+
+### Blizzard
+lancache-blizzard dist.blizzard.com.edgesuite.net llnw.blizzard.com dist.blizzard.com blizzard.vo.llnwd.net
+
+### Hirez
+lancache-hirez hirez.http.internapcdn.net
+
+### Origin
+lancache-origin akamai.cdn.ea.com lvlt.cdn.ea.com
+
+### Sony
+lancache-sony pls.patch.station.sony.com
+
+### Turbine
+lancache-turbine download.ic.akamai.turbine.com launcher.infinitecrisis.com
+
+### Microsoft
+lancache-microsoft *.download.windowsupdate.com download.windowsupdate.com dlassets.xboxlive.com *.xboxone.loris.llnwd.net xboxone.vo.llnwd.net images-eds.xboxlive.com xbox-mbr.xboxlive.com
