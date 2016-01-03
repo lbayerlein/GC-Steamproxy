@@ -1,0 +1,25 @@
+$TTL 1D
+@	IN SOA	ns1.steampowered.com. root.steampowered.com. (
+				2016010102	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS	@
+	A	127.0.0.1
+
+lancache-steam 	IN	A	10.10.39.156
+cs		IN	A	10.10.39.156
+*.cs		IN	A	10.10.39.156
+content1	IN	A	10.10.39.156
+content2	IN	A	10.10.39.156
+content3	IN	A	10.10.39.156
+content4	IN	A	10.10.39.156
+content5	IN	A	10.10.39.156
+content6	IN	A	10.10.39.156
+content7	IN	A	10.10.39.156
+content8	IN	A	10.10.39.156
+*.akamai	IN	A	10.10.39.156
+content-origin	IN	A	10.10.39.156
+client-download	IN	A	10.10.39.156
+media		IN	A	10.10.39.156
