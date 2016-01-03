@@ -7,6 +7,11 @@ Blog: http://blog.multiplay.co.uk/2014/04/lancache-dynamically-caching-game-inst
 ## GamersCongress
 We use this setup a few years on our GamersCongress in Vilsbiburg. Feel free to visit us :-)
 
+## Reverse Proxy
+For this functionality we use NGINX with its caching service. All of this configuration is in /etc/nginx.
+
+All of the logs and all of the data is stored in /data.
+
 ## DNS
 ### Steam
 lancache-steam cs.steampowered.com *.cs.steampowered.com content1.steampowered.com content2.steampowered.com content3.steampowered.com content4.steampowered.com content5.steampowered.com content6.steampowered.com content7.steampowered.com content8.steampowered.com *.hsar.steampowered.com.edgesuite.net *.akamai.steamstatic.com content-origin.steampowered.com client-download.steampowered.com
